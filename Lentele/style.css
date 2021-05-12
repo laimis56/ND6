@@ -1,0 +1,30 @@
+body{
+  font-family:sans-serif;
+}
+table{
+  width: 100%;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+#table-1 th, td {
+  border: 1px solid black;
+   padding: 10px;
+   text-align: center;
+
+}
+#table-1 thead {
+  text-transform: capitalize;
+}
+.Orandžine{
+  background: orange;
+  color: white;
+  font-weight: 600;
+}.Melyna{
+  background: blue;
+  color: white;
+  font-weight: 600;
+}.Zalia{
+  background: green;
+  color: white;
+  font-weight: 600;
+}

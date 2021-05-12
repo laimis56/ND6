@@ -1,0 +1,47 @@
+body{
+  margin:0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  min-height: 100vh;
+  background: #031321;
+  font-family: consolas;
+}
+a
+{
+  position:relative;
+  display: inline-block;
+  padding: 15px 30px
+  color: #2196f3;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow:hidden;
+  transition: 0.2s;
+  }
+  a:hover
+  {
+    color: #255784;
+    border: solid black;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.1s
+  }
+.block{
+  width: 300px;
+  height: 300px;
+  position:center;
+  
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  0% {top: 0px;}
+  25%{top: 200px;}
+  75% {top: 50px;}
+  100% {top: 100px;}
+
+}

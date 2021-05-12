@@ -1,0 +1,21 @@
+body{
+  margin: 0;
+}
+.block{
+margin:50px;
+width: 100px;
+height: 200px;
+background: lightblue;
+border-radius: 30px;
+transition: all 0.5s ease-in;
+transition-delay: 0.1;
+transition-property: all;
+transition-duration: 0.5s;
+transition-timing-function: ease-in;
+
+}
+.block:hover {
+  width: 500px;
+  border-radius: 100px;
+  background: green;
+}
